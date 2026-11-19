@@ -1,0 +1,367 @@
+export const SAMPLE_VIDEOS = [
+  // --- SÉRIES DRAMA PAR ÉPISODE ---
+  {
+    id: 'series-destins-croises',
+    type: 'series',
+    title: 'Destins Croisés : Séoul Horizon',
+    originalTitle: 'Crossed Destinies (Drama)',
+    tagline: 'Chaque choix a son prix, chaque regard son secret.',
+    description: "Une jeune violoncelliste prometteuse et un architecte d'intérieur mystérieux se croisent par hasard lors d'une nuit de mousson à Séoul. Entre rivalités familiales, ambitions artistiques et secrets enfouis, leur complicité naissante bouleverse leur existence.",
+    genres: ['Drama', 'Romance', 'Série'],
+    releaseYear: 2025,
+    duration: 2880,
+    durationFormatted: '4 Épisodes',
+    totalEpisodes: 4,
+    maturityRating: 'Tous publics',
+    isKidsFriendly: true,
+    director: 'Kim Jin-Woo',
+    cast: ['Park Min-Young', 'Lee Dong-Wook', 'Han So-Hee', 'Jung Hae-In'],
+    rating: 4.9,
+    ratingCount: 5420,
+    likesCount: 4980,
+    dislikesCount: 21,
+    views: 342000,
+    posterUrl: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    isFeatured: true,
+    isTrending: true,
+    trendingRank: 1,
+    qualities: ['360p', '720p', '1080p', '4K'],
+    audioTracks: [
+      { id: 'kr', label: 'Coréen (Original 5.1)' },
+      { id: 'fr', label: 'Français (Doublage)' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' },
+      { id: 'en', label: 'English CC', src: '/stream/subtitles/sample_en.vtt' }
+    ],
+    episodes: [
+      {
+        id: 'ep-dc-1',
+        episodeNumber: 1,
+        title: 'Épisode 1 : La Rencontre Sous la Pluie',
+        description: "Alors qu'un orage d'été éclate sur la tour Namsan, Ji-Won perd sa partition de musique. Un inconnu à l'imperméable sombre la rattrape au vol.",
+        duration: 734,
+        durationFormatted: '12 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4'
+      },
+      {
+        id: 'ep-dc-2',
+        episodeNumber: 2,
+        title: 'Épisode 2 : Les Secrets de Gangnam',
+        description: "Ji-Won découvre que l'architecte Min-Ho n'est autre que le fils cadet du groupe immobilier qui menace de raser le théâtre historique de son grand-père.",
+        duration: 596,
+        durationFormatted: '10 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1538485399081-7191377e8241?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+      },
+      {
+        id: 'ep-dc-3',
+        episodeNumber: 3,
+        title: 'Épisode 3 : Le Pacte Inavoué',
+        description: "Pris au piège par son frère aîné, Min-Ho propose un accord secret à Ji-Won. Mais les sentiments s'en mêlent plus vite que prévu.",
+        duration: 888,
+        durationFormatted: '15 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4'
+      },
+      {
+        id: 'ep-dc-4',
+        episodeNumber: 4,
+        title: 'Épisode 4 : L’Heure des Révélations',
+        description: "Le soir de la grande audition de l'Orchestre Philharmonique, un coup de théâtre éclate en coulisses, dévoilant le testament secret.",
+        duration: 654,
+        durationFormatted: '11 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+      }
+    ]
+  },
+  {
+    id: 'series-heritiere-chaebol',
+    type: 'series',
+    title: 'L’Héritière du Chaebol',
+    originalTitle: 'The Chaebol Heiress',
+    tagline: 'Dans l’arène du pouvoir et de la finance, la confiance est mortelle.',
+    description: "Après dix années passées en France, Min-Ji revient à Séoul pour assister à l'ouverture du testament de son grand-père. Déclarée seule héritière légitime du conglomérat Hansung, elle doit affronter sa belle-mère sans merci et un cartel d'investisseurs corrompus.",
+    genres: ['Drama', 'Suspense', 'Série'],
+    releaseYear: 2025,
+    duration: 2100,
+    durationFormatted: '3 Épisodes',
+    totalEpisodes: 3,
+    maturityRating: '12+',
+    isKidsFriendly: false,
+    director: 'Bae Hyo-Min',
+    cast: ['Song Hye-Kyo', 'Gong Yoo', 'Kim Ji-Won', 'Wi Ha-Joon'],
+    rating: 4.8,
+    ratingCount: 4210,
+    likesCount: 3890,
+    dislikesCount: 45,
+    views: 289000,
+    posterUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    isFeatured: false,
+    isTrending: true,
+    trendingRank: 2,
+    qualities: ['360p', '720p', '1080p', '4K'],
+    audioTracks: [
+      { id: 'kr', label: 'Coréen (Original 5.1)' },
+      { id: 'fr', label: 'Français' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' }
+    ],
+    episodes: [
+      {
+        id: 'ep-hc-1',
+        episodeNumber: 1,
+        title: 'Épisode 1 : Le Retour d’Exil',
+        description: "Min-Ji débarque à l'aéroport d'Incheon sous une fausse identité. À peine montée dans le taxi, elle s'aperçoit qu'un véhicule la prend en filature.",
+        duration: 720,
+        durationFormatted: '12 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'
+      },
+      {
+        id: 'ep-hc-2',
+        episodeNumber: 2,
+        title: 'Épisode 2 : Coup de Bluff au Conseil',
+        description: "Au 48e étage du siège social, le conseil d'administration est sur le point de voter la vente de la filiale technologique. Min-Ji fait une entrée fracassante.",
+        duration: 654,
+        durationFormatted: '11 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+      },
+      {
+        id: 'ep-hc-3',
+        episodeNumber: 3,
+        title: 'Épisode 3 : L’Alliance de Minuit',
+        description: "Trahie par son propre avocat, Min-Ji se tourne vers Hyun-Woo, l'ancien chef de la sécurité limogé trois ans plus tôt.",
+        duration: 734,
+        durationFormatted: '12 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4'
+      }
+    ]
+  },
+  {
+    id: 'series-gardien-crepuscule',
+    type: 'series',
+    title: 'Le Gardien du Crépuscule',
+    originalTitle: 'Twilight Guardian (K-Drama)',
+    tagline: 'Un amour qui défie les siècles et les lois célestes.',
+    description: "Un guerrier mystique condamné à l'immortalité veille dans l'ombre sur la capitale coréenne. Lorsqu'il rencontre une jeune chercheuse en archéologie capable de voir son aura céleste, il comprend que le destin vient de réécrire les règles.",
+    genres: ['Drama', 'Fantastique', 'Romance', 'Série'],
+    releaseYear: 2024,
+    duration: 2300,
+    durationFormatted: '3 Épisodes',
+    totalEpisodes: 3,
+    maturityRating: 'Tous publics',
+    isKidsFriendly: true,
+    director: 'Yoon Se-Ah',
+    cast: ['Cha Eun-Woo', 'Kim Yoo-Jung', 'Ahn Hyo-Seop'],
+    rating: 4.9,
+    ratingCount: 6100,
+    likesCount: 5740,
+    dislikesCount: 30,
+    views: 410000,
+    posterUrl: 'https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    isFeatured: false,
+    isTrending: true,
+    trendingRank: 3,
+    qualities: ['360p', '720p', '1080p'],
+    audioTracks: [
+      { id: 'kr', label: 'Coréen (Original)' },
+      { id: 'fr', label: 'Français' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' }
+    ],
+    episodes: [
+      {
+        id: 'ep-gc-1',
+        episodeNumber: 1,
+        title: 'Épisode 1 : Le Réveil du Miroir',
+        description: "Lors de fouilles dans l'ancien palais de Gyeongbokgung, Soo-Ah descellera un artefact qui brise un charme millénaire.",
+        duration: 888,
+        durationFormatted: '15 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1514533450685-4493e01d1fdc?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4'
+      },
+      {
+        id: 'ep-gc-2',
+        episodeNumber: 2,
+        title: 'Épisode 2 : L’Ombre Rouge',
+        description: "Des créatures nées de la pénombre tentent de récupérer le médaillon. Le Gardien intervient in extremis.",
+        duration: 734,
+        durationFormatted: '12 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4'
+      },
+      {
+        id: 'ep-gc-3',
+        episodeNumber: 3,
+        title: 'Épisode 3 : Le Serment d’Éternité',
+        description: "Pour sauver Soo-Ah d'une malédiction, le Gardien accepte de renoncer à une partie de ses pouvoirs divins.",
+        duration: 654,
+        durationFormatted: '11 min',
+        thumbnailUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=400&q=80',
+        streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4'
+      }
+    ]
+  },
+
+  // --- FILMS & DOCUMENTAIRES ---
+  {
+    id: 'vid-nova-station',
+    type: 'movie',
+    title: 'Nova Station : Aux Portes de l’Infini',
+    originalTitle: 'Nova Station : Frontiers',
+    tagline: 'Aux confins de la galaxie, un signal inconnu réveille une cité stellaire abandonnée.',
+    description: "En l'an 2184, une équipe d'ingénieurs et d'astronautes envoyée en mission de reconnaissance sur un avant-poste orbital déserté découvre une technologie capable de courber l'espace. Ils doivent percer les secrets du complexe avant qu'une anomalie gravitationnelle ne détruise la station.",
+    genres: ['Science-Fiction', 'Aventure', 'Action'],
+    releaseYear: 2025,
+    duration: 734,
+    durationFormatted: '12 min',
+    maturityRating: '12+',
+    isKidsFriendly: false,
+    director: 'Julien Martinez',
+    cast: ['Sarah Vane', 'Thomas Kroll', 'Elena Moreau', 'David Chen'],
+    rating: 4.8,
+    ratingCount: 3820,
+    likesCount: 2950,
+    dislikesCount: 42,
+    views: 184500,
+    posterUrl: 'https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4',
+    isFeatured: false,
+    isTrending: true,
+    trendingRank: 4,
+    qualities: ['360p', '720p', '1080p', '4K'],
+    audioTracks: [
+      { id: 'fr', label: 'Français (Stéréo)' },
+      { id: 'en', label: 'English (Original 5.1)' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' },
+      { id: 'en', label: 'English CC', src: '/stream/subtitles/sample_en.vtt' }
+    ]
+  },
+  {
+    id: 'vid-profondeurs-emeraude',
+    type: 'movie',
+    title: 'Les Profondeurs d’Émeraude',
+    originalTitle: 'Emerald Depths : The Hidden Biosphere',
+    tagline: 'Une immersion inédite au cœur des écosystèmes les plus préservés de la planète.',
+    description: "Ce documentaire d'exploration plonge au cœur des forêts tropicales primaires et des récifs coralliens reculés pour révéler l'intelligence collective de la faune et de la flore sauvage face aux changements climatiques.",
+    genres: ['Documentaire', 'Nature', 'Aventure'],
+    releaseYear: 2024,
+    duration: 596,
+    durationFormatted: '10 min',
+    maturityRating: 'Tous publics',
+    isKidsFriendly: true,
+    director: 'Camille Delorme',
+    cast: ['Claire Bernard (Voix Off)', 'Dr. Alan Vance'],
+    rating: 4.9,
+    ratingCount: 5120,
+    likesCount: 4890,
+    dislikesCount: 28,
+    views: 298000,
+    posterUrl: 'https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1506703719100-a0f3a48c0f86?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4',
+    isFeatured: false,
+    isTrending: true,
+    trendingRank: 5,
+    qualities: ['360p', '720p', '1080p'],
+    audioTracks: [
+      { id: 'fr', label: 'Français (Dolby 5.1)' },
+      { id: 'en', label: 'English (Original)' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' },
+      { id: 'en', label: 'English', src: '/stream/subtitles/sample_en.vtt' }
+    ]
+  },
+  {
+    id: 'vid-pixel-aventures',
+    type: 'movie',
+    title: 'L’Odyssée du Petit Robot',
+    originalTitle: 'The Tiny Automaton Journey',
+    tagline: 'Même le plus petit engrenage peut accomplir de grandes merveilles.',
+    description: "Dans une fabrique de jouets féerique, un petit automate curieux s'éveille avec la capacité de réparer les objets cassés. Il entreprend un voyage rempli d'amitié et de péripéties à travers la vallée enchantée.",
+    genres: ['Animation', 'Famille', 'Comédie'],
+    releaseYear: 2024,
+    duration: 888,
+    durationFormatted: '15 min',
+    maturityRating: 'Tous publics',
+    isKidsFriendly: true,
+    director: 'Léo Fontaine',
+    cast: ['Voix de Robi', 'Voix de Sparky'],
+    rating: 4.7,
+    ratingCount: 3410,
+    likesCount: 3200,
+    dislikesCount: 35,
+    views: 210000,
+    posterUrl: 'https://images.unsplash.com/photo-1535268647677-300dbf3d78d1?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4',
+    isFeatured: false,
+    isTrending: false,
+    trendingRank: null,
+    qualities: ['360p', '720p', '1080p'],
+    audioTracks: [
+      { id: 'fr', label: 'Français' },
+      { id: 'en', label: 'English' }
+    ],
+    subtitles: [
+      { id: 'fr', label: 'Français', src: '/stream/subtitles/sample_fr.vtt' }
+    ]
+  },
+  {
+    id: 'vid-circuit-urbain',
+    type: 'movie',
+    title: 'Circuit Urbain : Vitesse Critique',
+    originalTitle: 'Apex Velocity',
+    tagline: 'Chaque milliseconde rapproche du triomphe ou du crash.',
+    description: "Les pilotes de prototypes électriques les plus aguerris du monde s'affrontent sur des circuits urbains nocturnes fermés. Un défi technologique et humain intense où la moindre erreur coûte la première place.",
+    genres: ['Action', 'Thriller', 'Sport'],
+    releaseYear: 2024,
+    duration: 180,
+    durationFormatted: '3 min',
+    maturityRating: '12+',
+    isKidsFriendly: false,
+    director: 'Kenza Amari',
+    cast: ['Maxime Perez', 'Sonia Weber', 'Kenji Sato'],
+    rating: 4.4,
+    ratingCount: 1250,
+    likesCount: 1100,
+    dislikesCount: 40,
+    views: 78000,
+    posterUrl: 'https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=600&q=80',
+    backdropUrl: 'https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=1920&q=80',
+    streamUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
+    trailerUrl: 'https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/WeAreGoingOnBullrun.mp4',
+    isFeatured: false,
+    isTrending: false,
+    trendingRank: null,
+    qualities: ['360p', '720p', '1080p'],
+    audioTracks: [
+      { id: 'fr', label: 'Français' },
+      { id: 'en', label: 'English' }
+    ],
+    subtitles: []
+  }
+];
