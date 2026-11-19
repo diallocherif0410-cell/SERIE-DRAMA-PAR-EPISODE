@@ -3,7 +3,7 @@ services:
     name: cinestream
     runtime: node
     plan: free
-    buildCommand: npm ci --prefix client && npm ci --prefix server && npm --prefix client run build
+    buildCommand: npm ci --include=dev --prefix client && npm ci --prefix server && npm --prefix client run build
     startCommand: npm --prefix server start
     healthCheckPath: /api/health
     envVars:
