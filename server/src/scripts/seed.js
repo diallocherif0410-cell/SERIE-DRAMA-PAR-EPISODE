@@ -15,18 +15,22 @@ export async function seedDatabase() {
   if (adminPassword && adminPassword.length < 12) {
     throw new Error('ADMIN_INITIAL_PASSWORD must be at least 12 characters long.');
   }
-  if (!admin && adminPassword) {
+  if (adminPassword) {
     const salt = bcrypt.genSaltSync(10);
     const passwordHash = bcrypt.hashSync(adminPassword, salt);
-    db.insert('users', {
-      id: 'usr_admin',
-      email: adminEmail,
-      name: 'Directeur Studio',
-      role: 'admin',
-      plan: 'premium',
-      passwordHash,
-      createdAt: new Date().toISOString()
-    });
+    if (admin) {
+      db.updateById('users', admin.id, { passwordHash });
+    } else {
+      db.insert('users', {
+        id: 'usr_admin',
+        email: adminEmail,
+        name: 'Directeur Studio',
+        role: 'admin',
+        plan: 'premium',
+        passwordHash,
+        createdAt: new Date().toISOString()
+      });
+    }
   }
 
   let demoUser = db.findOne('users', u => u.email === 'demo@cinestream.io');

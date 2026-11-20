@@ -104,7 +104,7 @@ Ouvrez ensuite votre navigateur sur :
 |---|---|---|---|
 | **Spectateur Démo** | `demo@cinestream.io` | `Demo123!` | Accès au catalogue, 3 profils (Alex, Emma, Enfants), reprise de lecture |
 
-Le compte Studio Admin n'est créé que si la variable `ADMIN_INITIAL_PASSWORD` (12 caractères minimum) est définie avant l'initialisation de la base. N'utilisez jamais le mot de passe de démonstration pour un compte administrateur.
+Le compte Studio Admin utilise la variable `ADMIN_INITIAL_PASSWORD` (12 caractères minimum) définie dans l'environnement du serveur. À chaque démarrage, cette valeur est appliquée au compte `admin@cinestream.io`, ce qui permet de réinitialiser son mot de passe en modifiant la variable puis en redémarrant le service. N'utilisez jamais le mot de passe de démonstration pour un compte administrateur.
 
 ---
 

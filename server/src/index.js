@@ -28,10 +28,7 @@ app.use(express.urlencoded({ extended: true }));
   }
 });
 
-// Seed initial data if catalog is empty
-if (db.find('videos').length === 0 || db.find('users').length === 0) {
-  seedDatabase();
-}
+seedDatabase();
 
 // Static folders
 app.use('/uploads', express.static(CONFIG.UPLOADS_DIR));
